@@ -1,0 +1,6 @@
+tensorflow
+numpy
+quickdraw
+matplotlib
+jupyter
+pillow

@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  justify-content: center;
+  color: white;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  margin-left: 40%;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  display: -ms-flexbox!important;
+  display: flex!important;
+  -ms-flex-preferred-size: auto;
+}
+
+p{
+font-size: 20px;
+margin-top: 10%;
+}
+.dessin-label{
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container, .container-sm {
+     width: 100%; 
+}
+
+.p5Canvas {
+  position: relative;
+  border: 1px solid black;
+
+  width: 60%;
+}
+
+.p5Canvas canvas {
+  width: 100%;
+  aspect-ratio: 1/1; /* Carré */
+}
+
+.dessin-label {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: -100px;
+}
+
+
+.buttons-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  border: black 2px;
+}
+
+.btn-block+.btn-block{
+         margin-top: 0
+
+}
